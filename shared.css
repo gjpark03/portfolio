@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "valorant";
+    src: url("fonts/valorant.ttf")
+}
+
+body {
+    background-color: #00001a;
+    font-family: valorant;
+}
+
+h1 {
+    color: white;
+}
