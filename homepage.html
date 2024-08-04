@@ -8,11 +8,53 @@
           content="Grace Park's portfolio website.">
     <title>Portfolio | Homepage</title>
     <link rel="stylesheet" href="shared.css">
+    <link rel="stylesheet" href="homepage.css">
 </head>
 <body>
-    <h1>
-        Portfolio
-    </h1>
+    <div id="header">
+        <h1> Portfolio </h1>
+        <div id="header-line">
+            <div class="line"></div>
+            <div class="diamond"></div>
+            <div class="line"></div>
+        </div>
+        <div id="social-buttons">
+            <a href="https://www.linkedin.com/in/yourprofile" class="button linkedin">
+                <img src="imgs/linkedin.png" alt="LinkedIn" class="icon">LinkedIn
+            </a>
+            <a href="https://github.com/yourprofile" class="button github">
+                <img src="imgs/github.png" alt="GitHub" class="icon">GitHub
+            </a>
+            <a href="mailto:youremail@example.com" class="button email">
+                <img src="imgs/mail-icon.png" alt="Email" class="icon">Email
+            </a>
+        </div>
+    </div>
+
+    <div id="namecard">
+        <img src="imgs/blank-pfp.png" class="profile-img" alt="Profile Picture">
+        <div class="namecard-text">
+            <h2>ABOUT ME</h2>
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of 
+                type and scrambled it to make a type specimen book. 
+                It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+        </div>
+    </div>
+
+    <div id="main">
+        <ul id="nav">
+            <li><a href="homepage.html">RESUME</a></li>
+            <li><a href="gallery.html">PROJECTS</a></li>
+            <li><a href="gallery.html">ACTIVITIES</a></li>
+            <li><a href="gallery.html">CERTIFICATIONS</a></li>
+        </ul>
+    </div>
+
     
 </body>
 </html>

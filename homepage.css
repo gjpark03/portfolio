@@ -1,0 +1,30 @@
+
+#namecard {
+    display: flex; 
+    align-items: center; 
+    color: #fd4556;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 50px;
+    border: solid 2px #fd4556;
+}
+
+.profile-img {
+    width: 150px; 
+    height: auto; 
+    border-radius: 50%; 
+    margin-right: 25px; 
+}
+
+.namecard-text {
+    text-align: left; 
+}
+
+.namecard-text h2 {
+    margin: 0; 
+}
+
+.namecard-text p {
+    font-family: 'Space Grotesk', sans-serif;
+    margin: 5px 0 0 0; 
+}
